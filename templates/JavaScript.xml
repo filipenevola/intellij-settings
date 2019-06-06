@@ -45,4 +45,11 @@
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
+  <template name="clo" value="console.log('$VAR$', $VAR2$);&#10;$END$" description="console.log clip" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR" expression="clipboard()" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAR2" expression="clipboard()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
 </templateSet>
