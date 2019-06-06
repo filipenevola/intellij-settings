@@ -1,0 +1,119 @@
+<templateSet group="Meteor">
+  <template name="mpub" value="Meteor.publish('$name$', ($argument$) =&gt; {&#10;  $END$&#10;});" description="Publish a record set." toReformat="true" toShortenFQNames="true">
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="argument" expression="" defaultValue="" alwaysStopAt="true" />
+  </template>
+  <template name="msr" value="{{#if Template.subscriptionsReady}}&#10;  $END$&#10;{{else}}&#10;    {{&gt; spinner}}&#10;{{/if}}" description="Blaze Template Subscriptions Ready" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="mim" value="import {Meteor} from 'meteor/meteor';&#10;$END$" description="Import Meteor" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="mi" value="import {$VAR0$} from '/imports/$VAR1$';&#10;$END$" description="Import something" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="mid" value="import $VAR0$ from '/imports/$VAR1$';&#10;$END$" description="Import something default" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="mimod" value="import $VAR0$ from '/imports/core/models/$VAR0$';&#10;$END$" description="Import default Model" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="misch" value="import $VAR0$ from '/imports/core/schemas/$VAR0$';&#10;$END$" description="Import default Schema" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="mipub" value="import '/imports/api/publications/$VAR0$';&#10;$END$" description="Import Publication file" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="mimet" value="import '/imports/api/methods/$VAR0$';&#10;$END$" description="Import Method file" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="mienu" value="import $VAR0$ from '/imports/core/enums/$VAR0$';&#10;$END$" description="Import default Enum" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="mevn" value="Template.$name$.events({&#10;  '$event$'(e, t){&#10;    $END$&#10;  }&#10;});" description="Specify event handlers for this template." toReformat="true" toShortenFQNames="true">
+    <variable name="name" expression="underscoresToCamelCase(fileNameWithoutExtension())" defaultValue="underscoresToCamelCase(fileNameWithoutExtension())" alwaysStopAt="true" />
+    <variable name="event" expression="" defaultValue="" alwaysStopAt="true" />
+  </template>
+  <template name="mhel" value="Template.$name$.helpers({&#10;  $helper$(){&#10;    $END$&#10;  }&#10;});" description="Specify template helpers available to this template." toReformat="false" toShortenFQNames="true">
+    <variable name="name" expression="underscoresToCamelCase(fileNameWithoutExtension())" defaultValue="underscoresToCamelCase(fileNameWithoutExtension())" alwaysStopAt="true" />
+    <variable name="helper" expression="" defaultValue="" alwaysStopAt="true" />
+  </template>
+  <template name="mcol" value="$Collection$ = new Mongo.Collection('$collection$');" description="declare a collection with new Mongo.Collection." toReformat="true" toShortenFQNames="true">
+    <variable name="Collection" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="collection" expression="" defaultValue="decapitalize(Collection)" alwaysStopAt="true" />
+  </template>
+  <template name="msub" value="this.subscribe('$name$');" description="Subscribe to a record set." toReformat="true" toShortenFQNames="true">
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+  </template>
+  <template name="msg" value="Session.get('$key$');" description="Get the value of a session variable." toReformat="true" toShortenFQNames="true">
+    <variable name="key" expression="" defaultValue="" alwaysStopAt="true" />
+  </template>
+  <template name="mss" value="Session.set('$key$', $value$);" description="Get the value of a session variable." toReformat="true" toShortenFQNames="true">
+    <variable name="key" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="value" expression="" defaultValue="" alwaysStopAt="true" />
+  </template>
+  <template name="msta" value="Meteor.startup(() =&gt; {&#10;    $END$&#10; });" description="Run code when a client or a server starts." toReformat="true" toShortenFQNames="true" />
+  <template name="merr" value="throw new Meteor.Error($number$, `$description$`);" description="throw Error" toReformat="true" toShortenFQNames="true">
+    <variable name="number" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="description" expression="" defaultValue="" alwaysStopAt="true" />
+  </template>
+  <template name="mcall" value="Meteor.call('$meteorMethod$', $dataObject$, (error, result) =&gt; {&#10;if(error){&#10; console.log(&quot;error&quot;, error);&#10;}&#10;if(result){&#10;    $END$&#10;}&#10;});" description="Meteor call method." toReformat="true" toShortenFQNames="true">
+    <variable name="meteorMethod" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="dataObject" expression="" defaultValue="" alwaysStopAt="true" />
+  </template>
+  <template name="milog" value="import logger from '/imports/lib/logger';&#10;$END$" description="Import Logger" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="micon" value="import Constants from '/imports/lib/Constants';&#10;$END$" description="Import Constants" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="miuti" value="import Utils from '/imports/lib/Utils';&#10;$END$" description="Import Constants" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="mmet" value="Meteor.methods({&#10;'$name$'($argument$) {&#10;  $END$&#10;  }&#10;});" description="Create a method" toReformat="true" toShortenFQNames="true">
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="argument" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="mwith" value="{{#with $statement$}}&#10;  $END$&#10;{{/with}}" description="Blaze #with." toReformat="true" toShortenFQNames="true">
+    <variable name="statement" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+</templateSet>

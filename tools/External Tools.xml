@@ -1,0 +1,30 @@
+<toolSet name="External Tools">
+  <tool name="install supervisor" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="meteor" />
+      <option name="PARAMETERS" value="yarn install" />
+      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$/pathable-supervisor" />
+    </exec>
+  </tool>
+  <tool name="install admin" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="meteor" />
+      <option name="PARAMETERS" value="yarn install" />
+      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$/pathable-admin" />
+    </exec>
+  </tool>
+  <tool name="install app" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="meteor" />
+      <option name="PARAMETERS" value="yarn install" />
+      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$/pathable-app" />
+    </exec>
+  </tool>
+  <tool name="install jobs" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="meteor" />
+      <option name="PARAMETERS" value="yarn install" />
+      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$/pathable-jobs" />
+    </exec>
+  </tool>
+</toolSet>
