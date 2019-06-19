@@ -11,6 +11,7 @@
     <option name="LOCAL_WHOLE_WORDS_ONLY" value="true" />
     <option name="SHOW_RESULTS_IN_SEPARATE_VIEW" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="FILE_MASK" value="*.scss" />
     <mask>*.properties</mask>
     <mask>*.html</mask>
     <mask>*.jsp</mask>
@@ -20,7 +21,6 @@
     <mask>*.css</mask>
     <mask>*.mxml</mask>
     <mask>packages</mask>
-    <mask>*.scss</mask>
     <mask>*css</mask>
     <mask>settings.json</mask>
     <mask>register-api.js</mask>
@@ -31,5 +31,6 @@
     <mask>*.js</mask>
     <mask>*.env</mask>
     <mask>*.jsx</mask>
+    <mask>*.scss</mask>
   </component>
 </application>
