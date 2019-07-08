@@ -18,7 +18,6 @@
     <mask>*.css</mask>
     <mask>*.mxml</mask>
     <mask>packages</mask>
-    <mask>*.scss</mask>
     <mask>*css</mask>
     <mask>settings.json</mask>
     <mask>register-api.js</mask>
@@ -29,5 +28,6 @@
     <mask>*.js</mask>
     <mask>*.env</mask>
     <mask>*.jsx</mask>
+    <mask>*.scss</mask>
   </component>
 </application>

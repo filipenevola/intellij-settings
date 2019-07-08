@@ -43,6 +43,9 @@
   <action id="Git.Tag">
     <keyboard-shortcut first-keystroke="ctrl t" />
   </action>
+  <action id="GitLab.Open.In.Browser">
+    <keyboard-shortcut first-keystroke="alt f" />
+  </action>
   <action id="Github.Open.In.Browser">
     <keyboard-shortcut first-keystroke="alt g" />
   </action>
