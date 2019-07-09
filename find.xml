@@ -1,10 +1,12 @@
 <application>
   <component name="FindSettings">
+    <option name="caseSensitive" value="true" />
     <option name="customScope" value="All Places" />
     <option name="defaultScopeName" value="All Places" />
     <option name="localWholeWordsOnly" value="true" />
     <option name="showResultsInSeparateView" value="true" />
     <option name="wholeWordsOnly" value="true" />
+    <option name="CASE_SENSITIVE_SEARCH" value="true" />
     <option name="WHOLE_WORDS_ONLY" value="true" />
     <option name="LOCAL_WHOLE_WORDS_ONLY" value="true" />
     <option name="SHOW_RESULTS_IN_SEPARATE_VIEW" value="true" />
@@ -18,6 +20,7 @@
     <mask>*.css</mask>
     <mask>*.mxml</mask>
     <mask>packages</mask>
+    <mask>*.scss</mask>
     <mask>*css</mask>
     <mask>settings.json</mask>
     <mask>register-api.js</mask>
@@ -28,6 +31,5 @@
     <mask>*.js</mask>
     <mask>*.env</mask>
     <mask>*.jsx</mask>
-    <mask>*.scss</mask>
   </component>
 </application>
