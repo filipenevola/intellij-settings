@@ -1,10 +1,9 @@
 <application>
   <component name="FileTypeManager" version="17">
     <extensionMap>
-      <mapping pattern=".prettierignore" type="PLAIN_TEXT" />
       <mapping pattern=".meteorignore" type="PLAIN_TEXT" />
+      <mapping pattern=".prettierignore" type="PLAIN_TEXT" />
       <mapping pattern="organization-leads-admin.jsx" type="PLAIN_TEXT" />
-      <mapping ext="groovy" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
 </application>
