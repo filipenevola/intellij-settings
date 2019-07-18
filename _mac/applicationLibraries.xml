@@ -4,6 +4,10 @@
       <CLASSES />
       <SOURCES />
     </library>
+    <library name="@types/fs-extra" type="javaScript">
+      <CLASSES />
+      <SOURCES />
+    </library>
     <library name="@types/material-ui" type="javaScript">
       <CLASSES />
       <SOURCES />
