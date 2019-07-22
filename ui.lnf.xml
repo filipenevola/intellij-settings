@@ -1,6 +1,9 @@
 <application>
   <component name="UISettings">
     <option name="MARK_MODIFIED_TABS_WITH_ASTERISK" value="true" />
+    <option name="MAX_CLIPBOARD_CONTENTS" value="5000" />
+    <option name="RECENT_FILES_LIMIT" value="500" />
+    <option name="RECENT_LOCATIONS_LIMIT" value="500" />
     <option name="SHOW_MEMORY_INDICATOR" value="true" />
   </component>
 </application>
