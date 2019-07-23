@@ -32,5 +32,9 @@
       <CLASSES />
       <SOURCES />
     </library>
+    <library name="@types/recompose" type="javaScript">
+      <CLASSES />
+      <SOURCES />
+    </library>
   </component>
 </application>
