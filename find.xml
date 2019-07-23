@@ -25,9 +25,9 @@
     <mask>*.schema.js</mask>
     <mask>*.json</mask>
     <mask>*resolvers.js</mask>
-    <mask>*.md</mask>
     <mask>*.js</mask>
     <mask>*.env</mask>
     <mask>*.jsx</mask>
+    <mask>*.md</mask>
   </component>
 </application>
