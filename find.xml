@@ -31,5 +31,6 @@
     <mask>*.env</mask>
     <mask>*.jsx</mask>
     <mask>*.md</mask>
+    <mask>*.resolvers.js</mask>
   </component>
 </application>
