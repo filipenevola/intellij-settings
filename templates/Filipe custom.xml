@@ -31,4 +31,9 @@
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
+  <template name="im" value="import { Meteor } from 'meteor/meteor';" description="import meteor" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
 </templateSet>
