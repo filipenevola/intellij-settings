@@ -1,17 +1,4 @@
 <templateSet group="JavaScript">
-  <template name="cl" value="console.log(`$VAR$=${$VAR$}`);&#10;$END$" description="console.log" toReformat="true" toShortenFQNames="true">
-    <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="JS_STATEMENT" value="true" />
-    </context>
-  </template>
-  <template name="cll" value="console.log(`$VAR$=${$VAR$}, $VAR2$=${$VAR2$}`);&#10;$END$" description="console.log 2 objects" toReformat="true" toShortenFQNames="true">
-    <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="VAR2" expression="" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="JS_STATEMENT" value="true" />
-    </context>
-  </template>
   <template name="tv" value="`$TEXT$=${$VAR$}`$END$" description="text var string" toReformat="true" toShortenFQNames="true">
     <variable name="TEXT" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
@@ -30,32 +17,6 @@
     <context>
       <option name="JAVA_SCRIPT" value="true" />
       <option name="JSX_HTML" value="false" />
-    </context>
-  </template>
-  <template name="cld" value="// eslint-disable-next-line no-console&#10;console.log(`$VAR$=${$VAR$}`);&#10;$END$" description="console.log eslint ignore" toReformat="true" toShortenFQNames="true">
-    <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="JS_STATEMENT" value="true" />
-    </context>
-  </template>
-  <template name="clld" value="// eslint-disable-next-line no-console&#10;console.log(`$VAR$=${$VAR$}, $VAR2$=${$VAR2$}`);&#10;$END$" description="console.log 2 objects esling ignore" toReformat="true" toShortenFQNames="true">
-    <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="VAR2" expression="" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="JS_STATEMENT" value="true" />
-    </context>
-  </template>
-  <template name="clo" value="console.log('$VAR$', $VAR2$);&#10;$END$" description="console.log clip" toReformat="true" toShortenFQNames="true">
-    <variable name="VAR" expression="clipboard()" defaultValue="" alwaysStopAt="true" />
-    <variable name="VAR2" expression="clipboard()" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="JS_STATEMENT" value="true" />
-    </context>
-  </template>
-  <template name="cls" value="console.log('$VAR$');&#10;$END$" description="console.log clip" toReformat="true" toShortenFQNames="true">
-    <variable name="VAR" expression="clipboard()" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
 </templateSet>

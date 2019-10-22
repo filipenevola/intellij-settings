@@ -1,0 +1,39 @@
+<templateSet group="Filipe custom">
+  <template name="afal" value="const $VAR0$ = ($PARAMS$) =&gt; {&#10;  // TODO remove log&#10;  console.log(`$VAR0$`, {$PARAMS$});&#10;  $END$&#10;}" description="arrow function arguments with log" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PARAMS" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="afpl" value="const $VAR0$ = ({$PARAMS$}) =&gt; {&#10;  // TODO remove log&#10;  console.log(`$VAR0$`, {$PARAMS$});&#10;  $END$&#10;}" description="arrow function params with log" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PARAMS" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="cl" value="console.log(`$VAR$=${$VAR$}`);&#10;$END$" description="console.log" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="clo" value="console.log(`$VAR$`, $VAR$);&#10;$END$" description="console.log clip" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR" expression="clipboard()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="cls" value="console.log(`$VAR$`);&#10;$END$" description="console.log clip" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR" expression="clipboard()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="im" value="import { Meteor } from 'meteor/meteor';" description="import meteor" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+</templateSet>

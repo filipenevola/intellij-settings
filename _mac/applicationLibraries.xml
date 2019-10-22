@@ -4,35 +4,11 @@
       <CLASSES />
       <SOURCES />
     </library>
-    <library name="@types/fs-extra" type="javaScript">
-      <CLASSES />
-      <SOURCES />
-    </library>
-    <library name="@types/material-ui" type="javaScript">
-      <CLASSES />
-      <SOURCES />
-    </library>
-    <library name="@types/meteor" type="javaScript">
-      <CLASSES />
-      <SOURCES />
-    </library>
-    <library name="@types/puppeteer" type="javaScript">
+    <library name="@types/jest" type="javaScript">
       <CLASSES />
       <SOURCES />
     </library>
     <library name="@types/react" type="javaScript">
-      <CLASSES />
-      <SOURCES />
-    </library>
-    <library name="@types/react-dom" type="javaScript">
-      <CLASSES />
-      <SOURCES />
-    </library>
-    <library name="@types/react-router" type="javaScript">
-      <CLASSES />
-      <SOURCES />
-    </library>
-    <library name="@types/recompose" type="javaScript">
       <CLASSES />
       <SOURCES />
     </library>
