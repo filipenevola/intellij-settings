@@ -26,6 +26,12 @@
   </action>
   <action id="EditorCodeBlockEnd" />
   <action id="EditorCodeBlockStart" />
+  <action id="EditorDecreaseFontSize">
+    <keyboard-shortcut first-keystroke="alt minus" />
+  </action>
+  <action id="EditorIncreaseFontSize">
+    <keyboard-shortcut first-keystroke="alt equals" />
+  </action>
   <action id="FindInPath">
     <keyboard-shortcut first-keystroke="shift ctrl f" />
     <keyboard-shortcut first-keystroke="shift meta f" />
