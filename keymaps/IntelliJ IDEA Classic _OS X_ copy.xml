@@ -55,6 +55,10 @@
   <action id="Github.Open.In.Browser">
     <keyboard-shortcut first-keystroke="alt g" />
   </action>
+  <action id="MaximizeToolWindow">
+    <keyboard-shortcut first-keystroke="shift meta quote" />
+    <keyboard-shortcut first-keystroke="shift ctrl up" />
+  </action>
   <action id="PinActiveTab">
     <keyboard-shortcut first-keystroke="ctrl p" />
   </action>
