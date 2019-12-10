@@ -1,0 +1,5 @@
+<application>
+  <component name="CsvEditorSettings">
+    <option name="USE_SOFT_WRAP" value="false" />
+  </component>
+</application>
