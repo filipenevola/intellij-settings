@@ -29,5 +29,6 @@
     <mask>packages</mask>
     <mask>*.js</mask>
     <mask>package.js</mask>
+    <mask>*.less</mask>
   </component>
 </application>
