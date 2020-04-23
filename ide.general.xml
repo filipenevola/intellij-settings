@@ -4,4 +4,15 @@
     <option name="autoSaveFiles" value="false" />
     <option name="showTipsOnStartup" value="false" />
   </component>
+  <component name="StatusBar">
+    <option name="widgets">
+      <map>
+        <entry key="Encoding" value="false" />
+        <entry key="InspectionProfile" value="false" />
+        <entry key="Memory" value="true" />
+        <entry key="ReadOnlyAttribute" value="false" />
+        <entry key="com.intellij.psi.codeStyle.statusbar.CodeStyleStatusBarWidget" value="false" />
+      </map>
+    </option>
+  </component>
 </application>
