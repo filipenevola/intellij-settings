@@ -16,9 +16,5 @@
       <CLASSES />
       <SOURCES />
     </library>
-    <library name="@types/react-router-dom" type="javaScript">
-      <CLASSES />
-      <SOURCES />
-    </library>
   </component>
 </application>
