@@ -1,0 +1,7 @@
+<templateSet group="React">
+  <template name="irrd" value="import { $END$ } from 'react-router-dom';" description="import react router dom" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+</templateSet>
