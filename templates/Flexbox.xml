@@ -1,0 +1,8 @@
+<templateSet group="Flexbox">
+  <template name="dshrink" value="// avoid overlapping https://stackoverflow.com/questions/32689686/overlapping-css-flexbox-items-in-safari&#10;flexShrink: 0," toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+</templateSet>
