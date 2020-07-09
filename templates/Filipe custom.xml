@@ -108,4 +108,14 @@
       <option name="XML" value="false" />
     </context>
   </template>
+  <template name="iqlog" value="&#10;import { logger } from 'meteor/quave:logs/logger';&#10;$END$" description="import { logger }" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="iqlogclient" value="&#10;import { loggerClient } from 'meteor/quave:logs/loggerClient';&#10;$END$" description="import { loggerClient }" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
 </templateSet>
