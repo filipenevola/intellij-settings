@@ -116,4 +116,24 @@
       <option name="HTML" value="true" />
     </context>
   </template>
+  <template name="iqlc" value="import { loggerClient } from 'meteor/quave:logs/loggerClient';&#10;$END$" description="Import loggerClient" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="iqls" value="import { logger } from 'meteor/quave:logs/logger';&#10;$END$" description="Import logger" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="qls" value="logger.info({ message: `$END$` });" description="logger.info server" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="qlc" value="loggerClient.info({ message: `$END$` });" description="loggerClient.info client" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
 </templateSet>
