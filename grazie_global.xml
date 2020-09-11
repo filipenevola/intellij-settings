@@ -10,8 +10,8 @@
       <SuppressingContext>
         <option name="suppressed">
           <set>
-            <option value="action is fired" />
             <option value="configuration is called" />
+            <option value="action is fired" />
           </set>
         </option>
       </SuppressingContext>
