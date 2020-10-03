@@ -1,5 +1,5 @@
 <application>
-  <component name="FileTypeManager" version="17">
+  <component name="FileTypeManager" version="18">
     <extensionMap>
       <mapping pattern="keystore" type="PLAIN_TEXT" />
       <mapping pattern="cordova-plugins" type="PLAIN_TEXT" />
