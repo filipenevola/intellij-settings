@@ -27,7 +27,6 @@
     <mask>*survey*</mask>
     <mask>*.json</mask>
     <mask>packages</mask>
-    <mask>*.less</mask>
     <mask>*.html</mask>
     <mask>package.js</mask>
     <mask>.gitignore</mask>
@@ -35,5 +34,6 @@
     <mask>*.schema.*</mask>
     <mask>*.md</mask>
     <mask>package.json</mask>
+    <mask>*.less</mask>
   </component>
 </application>
