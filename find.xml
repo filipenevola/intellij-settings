@@ -4,11 +4,14 @@
     <option name="defaultScopeName" value="All Places" />
     <option name="localCaseSensitive" value="true" />
     <option name="localWholeWordsOnly" value="true" />
+    <option name="regularExpressions" value="true" />
     <option name="showResultsInSeparateView" value="true" />
     <option name="LOCAL_CASE_SENSITIVE_SEARCH" value="true" />
     <option name="LOCAL_WHOLE_WORDS_ONLY" value="true" />
+    <option name="REGULAR_EXPRESSIONS" value="true" />
     <option name="SHOW_RESULTS_IN_SEPARATE_VIEW" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="FILE_MASK" value="*.md" />
     <mask>*.properties</mask>
     <mask>*.jsp</mask>
     <mask>*.xml</mask>
@@ -32,8 +35,8 @@
     <mask>.gitignore</mask>
     <mask>*.js</mask>
     <mask>*.schema.*</mask>
-    <mask>*.md</mask>
     <mask>package.json</mask>
     <mask>*.less</mask>
+    <mask>*.md</mask>
   </component>
 </application>
