@@ -32,9 +32,9 @@
     <mask>*.schema.*</mask>
     <mask>package.json</mask>
     <mask>*.less</mask>
-    <mask>package.js</mask>
     <mask>.gitignore</mask>
     <mask>*.md</mask>
     <mask>*.sh</mask>
+    <mask>package.js</mask>
   </component>
 </application>
