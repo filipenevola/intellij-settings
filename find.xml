@@ -1,12 +1,8 @@
 <application>
   <component name="FindSettings">
-    <option name="caseSensitive" value="true" />
     <option name="customScope" value="Default Changelist" />
     <option name="defaultScopeName" value="Default Changelist" />
     <option name="showResultsInSeparateView" value="true" />
-    <option name="wholeWordsOnly" value="true" />
-    <option name="CASE_SENSITIVE_SEARCH" value="true" />
-    <option name="WHOLE_WORDS_ONLY" value="true" />
     <option name="SHOW_RESULTS_IN_SEPARATE_VIEW" value="true" />
     <option name="SEARCH_SCOPE" value="Default Changelist" />
     <mask>*.properties</mask>
@@ -33,8 +29,8 @@
     <mask>package.json</mask>
     <mask>*.less</mask>
     <mask>.gitignore</mask>
+    <mask>package.js</mask>
     <mask>*.md</mask>
     <mask>*.sh</mask>
-    <mask>package.js</mask>
   </component>
 </application>
