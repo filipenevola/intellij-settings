@@ -32,7 +32,7 @@
     <mask>.gitignore</mask>
     <mask>*.md</mask>
     <mask>*.sh</mask>
-    <mask>package.js</mask>
     <mask>*.js</mask>
+    <mask>package.js</mask>
   </component>
 </application>
