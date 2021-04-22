@@ -2,11 +2,10 @@
   <component name="FindSettings">
     <option name="customScope" value="Default Changelist" />
     <option name="defaultScopeName" value="Default Changelist" />
-    <option name="preserveCase" value="true" />
     <option name="showResultsInSeparateView" value="true" />
-    <option name="PRESERVE_CASE_REPLACE" value="true" />
     <option name="SHOW_RESULTS_IN_SEPARATE_VIEW" value="true" />
     <option name="SEARCH_SCOPE" value="Default Changelist" />
+    <option name="FILE_MASK" value="*.js" />
     <mask>*.properties</mask>
     <mask>*.jsp</mask>
     <mask>*.xml</mask>
@@ -26,7 +25,6 @@
     <mask>*.json</mask>
     <mask>packages</mask>
     <mask>*.html</mask>
-    <mask>*.js</mask>
     <mask>*.schema.*</mask>
     <mask>package.json</mask>
     <mask>*.less</mask>
@@ -34,5 +32,6 @@
     <mask>*.md</mask>
     <mask>*.sh</mask>
     <mask>package.js</mask>
+    <mask>*.js</mask>
   </component>
 </application>
