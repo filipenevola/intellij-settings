@@ -118,4 +118,10 @@
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
+  <template name="ncd" value="// TODO [$VAR$$END$] remove this disable&#10;/* eslint-disable no-console */" description="nc disable" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR" expression="clipboard()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
 </templateSet>
