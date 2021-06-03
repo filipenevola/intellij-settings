@@ -35,9 +35,9 @@
     <mask>*.md</mask>
     <mask>*.sh</mask>
     <mask>*.js</mask>
-    <mask>package.js</mask>
     <mask>*Editor*</mask>
     <mask>*test*</mask>
     <mask>*Test*</mask>
+    <mask>package.js</mask>
   </component>
 </application>
