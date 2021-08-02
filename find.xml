@@ -11,6 +11,7 @@
     <option name="LOCAL_WHOLE_WORDS_ONLY" value="true" />
     <option name="SHOW_RESULTS_IN_SEPARATE_VIEW" value="true" />
     <option name="SEARCH_SCOPE" value="All Changed Files" />
+    <option name="FILE_MASK" value="*.md" />
     <mask>*.properties</mask>
     <mask>*.jsp</mask>
     <mask>*.xml</mask>
@@ -34,12 +35,12 @@
     <mask>package.json</mask>
     <mask>*.less</mask>
     <mask>.gitignore</mask>
-    <mask>*.md</mask>
     <mask>*.sh</mask>
     <mask>*.js</mask>
     <mask>*Editor*</mask>
     <mask>*test*</mask>
     <mask>*Test*</mask>
     <mask>package.js</mask>
+    <mask>*.md</mask>
   </component>
 </application>
