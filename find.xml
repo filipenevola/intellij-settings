@@ -33,7 +33,7 @@
     <mask>*Test*</mask>
     <mask>package.js</mask>
     <mask>*.md</mask>
-    <mask>*test*</mask>
     <mask>*js</mask>
+    <mask>*test*</mask>
   </component>
 </application>
