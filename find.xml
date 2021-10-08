@@ -32,8 +32,8 @@
     <mask>*Editor*</mask>
     <mask>*Test*</mask>
     <mask>*.md</mask>
-    <mask>*test*</mask>
     <mask>*js</mask>
     <mask>package.js</mask>
+    <mask>*test*</mask>
   </component>
 </application>
