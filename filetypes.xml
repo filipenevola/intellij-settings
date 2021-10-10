@@ -1,6 +1,7 @@
 <application>
   <component name="FileTypeManager" version="18">
     <extensionMap>
+      <mapping pattern="UsersCollection.js" type="AUTO_DETECTED" />
       <mapping pattern="populateGroups.js" type="AUTO_DETECTED" />
       <mapping pattern="release" type="PLAIN_TEXT" />
       <mapping pattern=".meteorignore" type="PLAIN_TEXT" />
