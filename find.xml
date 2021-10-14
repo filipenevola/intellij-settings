@@ -31,7 +31,6 @@
     <mask>*.less</mask>
     <mask>.gitignore</mask>
     <mask>*.sh</mask>
-    <mask>*.js</mask>
     <mask>*Editor*</mask>
     <mask>*Test*</mask>
     <mask>*.md</mask>
@@ -39,5 +38,6 @@
     <mask>*test*</mask>
     <mask>package.js</mask>
     <mask>*Collection*</mask>
+    <mask>*.js</mask>
   </component>
 </application>
