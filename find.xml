@@ -9,7 +9,6 @@
     <option name="WHOLE_WORDS_ONLY" value="true" />
     <option name="SHOW_RESULTS_IN_SEPARATE_VIEW" value="true" />
     <option name="SEARCH_SCOPE" value="All Changed Files" />
-    <mask>*.jsp</mask>
     <mask>*.xml</mask>
     <mask>*.java</mask>
     <mask>*.as</mask>
@@ -39,5 +38,6 @@
     <mask>*js</mask>
     <mask>*test*</mask>
     <mask>package.js</mask>
+    <mask>*Collection*</mask>
   </component>
 </application>
