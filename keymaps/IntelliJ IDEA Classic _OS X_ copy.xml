@@ -86,4 +86,7 @@
   <action id="android.deploy.CodeSwap">
     <keyboard-shortcut first-keystroke="shift ctrl meta r" />
   </action>
+  <action id="copilot.openCopilot">
+    <keyboard-shortcut first-keystroke="ctrl c" />
+  </action>
 </keymap>
