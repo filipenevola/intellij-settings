@@ -1,0 +1,7 @@
+<keymap version="1" name="macOS copy" parent="Mac OS X 10.5+">
+  <action id="GotoFile">
+    <keyboard-shortcut first-keystroke="shift meta o" />
+    <keyboard-shortcut first-keystroke="shift meta n" />
+  </action>
+  <action id="NewScratchFile" />
+</keymap>
