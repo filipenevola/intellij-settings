@@ -13,7 +13,6 @@
     <option name="LOCAL_WHOLE_WORDS_ONLY" value="true" />
     <option name="SHOW_RESULTS_IN_SEPARATE_VIEW" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
-    <mask>*.xml</mask>
     <mask>*.java</mask>
     <mask>*.as</mask>
     <mask>*.css</mask>
@@ -27,7 +26,6 @@
     <mask>*.jsx</mask>
     <mask>settings.json</mask>
     <mask>*survey*</mask>
-    <mask>*.json</mask>
     <mask>packages</mask>
     <mask>*.html</mask>
     <mask>*.schema.*</mask>
@@ -43,5 +41,7 @@
     <mask>*Collection*</mask>
     <mask>*.js</mask>
     <mask>package.js</mask>
+    <mask>*.json</mask>
+    <mask>*.js*</mask>
   </component>
 </application>
