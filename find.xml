@@ -13,7 +13,7 @@
     <option name="LOCAL_WHOLE_WORDS_ONLY" value="true" />
     <option name="SHOW_RESULTS_IN_SEPARATE_VIEW" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
-    <mask>*.java</mask>
+    <option name="FILE_MASK" value="commands.js" />
     <mask>*.as</mask>
     <mask>*.css</mask>
     <mask>*.mxml</mask>
@@ -43,5 +43,6 @@
     <mask>*.json</mask>
     <mask>*.js*</mask>
     <mask>*.js</mask>
+    <mask>commands.js</mask>
   </component>
 </application>
