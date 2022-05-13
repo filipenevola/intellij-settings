@@ -8,6 +8,7 @@
     <keyboard-shortcut first-keystroke="meta open_bracket" />
     <keyboard-shortcut first-keystroke="alt open_bracket" />
   </action>
+  <action id="ChangesView.SetDefault" />
   <action id="CloseAllEditors">
     <keyboard-shortcut first-keystroke="ctrl w" />
   </action>
@@ -32,6 +33,7 @@
   <action id="EditorIncreaseFontSize">
     <keyboard-shortcut first-keystroke="alt equals" />
   </action>
+  <action id="FileChooser.TogglePathBar" />
   <action id="FindInPath">
     <keyboard-shortcut first-keystroke="shift ctrl f" />
     <keyboard-shortcut first-keystroke="shift meta f" />
@@ -58,6 +60,10 @@
   <action id="MaximizeToolWindow">
     <keyboard-shortcut first-keystroke="shift meta quote" />
     <keyboard-shortcut first-keystroke="shift ctrl up" />
+  </action>
+  <action id="ParameterInfo">
+    <keyboard-shortcut first-keystroke="meta p" />
+    <keyboard-shortcut first-keystroke="alt space" />
   </action>
   <action id="PinActiveTab">
     <keyboard-shortcut first-keystroke="ctrl p" />
