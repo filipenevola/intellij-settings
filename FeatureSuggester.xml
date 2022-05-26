@@ -1,5 +1,10 @@
 <application>
   <component name="FeatureSuggesterSettings">
+    <option name="suggestionLastShownTime">
+      <map>
+        <entry key="File structure" value="1653599295624" />
+      </map>
+    </option>
     <option name="workingDays">
       <list>
         <option value="1651941281353" />
