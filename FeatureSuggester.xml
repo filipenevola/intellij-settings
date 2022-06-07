@@ -1,32 +1,10 @@
 <application>
   <component name="FeatureSuggesterSettings">
-    <option name="suggestionLastShownTime">
-      <map>
-        <entry key="File structure" value="1653599295624" />
-      </map>
-    </option>
     <option name="workingDays">
       <list>
         <option value="1651941281353" />
         <option value="1652010676526" />
-        <option value="1652106473412" />
-        <option value="1652210304420" />
-        <option value="1652288662789" />
-        <option value="1652366102467" />
-        <option value="1652460397199" />
-        <option value="1652619437047" />
-        <option value="1652794716456" />
-        <option value="1652865073317" />
-        <option value="1652955537625" />
-        <option value="1653051636634" />
-        <option value="1653131348806" />
-        <option value="1653306347811" />
-        <option value="1653398998168" />
-        <option value="1653500018026" />
-        <option value="1653565949282" />
-        <option value="1653651006734" />
-        <option value="1653745634646" />
-        <option value="1653821721601" />
+        <option value="1654262724855" />
       </list>
     </option>
   </component>
