@@ -160,4 +160,11 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
+  <template name="at" value="&lt;a href=&quot;$VAR$&quot; target=&quot;_blank&quot;&gt;$END$&lt;/a&gt;" description="className=&quot;&quot;" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="ECMAScript6" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
 </templateSet>
