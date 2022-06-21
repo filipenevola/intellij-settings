@@ -83,6 +83,10 @@
   <action id="SplitVertically">
     <keyboard-shortcut first-keystroke="alt v" />
   </action>
+  <action id="SurroundWith">
+    <keyboard-shortcut first-keystroke="meta alt t" />
+    <keyboard-shortcut first-keystroke="alt t" />
+  </action>
   <action id="Vcs.ShowTabbedFileHistory">
     <keyboard-shortcut first-keystroke="alt h" />
   </action>
