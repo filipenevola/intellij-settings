@@ -1,28 +1,38 @@
 <templateSet group="Angular">
   <template name="a-class" value="[class]=&quot;$expression$&quot;" description="Angular [class] binding" toReformat="true" toShortenFQNames="true" deactivated="true">
     <variable name="expression" expression="" defaultValue="&quot;expression&quot;" alwaysStopAt="true" />
-    <context />
+    <context>
+      <option name="SVELTE_HTML_TEXT" value="false" />
+    </context>
   </template>
   <template name="a-ngClass" value="[ngClass]=&quot;{$cssClass$: $expression$}&quot;" description="Angular ngClass" toReformat="true" toShortenFQNames="true" deactivated="true">
     <variable name="cssClass" expression="" defaultValue="&quot;cssClass&quot;" alwaysStopAt="true" />
     <variable name="expression" expression="" defaultValue="&quot;expression&quot;" alwaysStopAt="true" />
-    <context />
+    <context>
+      <option name="SVELTE_HTML_TEXT" value="false" />
+    </context>
   </template>
   <template name="a-ngFor" value="*ngFor=&quot;let $item$ of $list$&quot;$END$" description="Angular *ngFor" toReformat="true" toShortenFQNames="true" deactivated="true">
     <variable name="item" expression="" defaultValue="&quot;item&quot;" alwaysStopAt="true" />
     <variable name="list" expression="" defaultValue="&quot;list&quot;" alwaysStopAt="true" />
-    <context />
+    <context>
+      <option name="SVELTE_HTML_TEXT" value="false" />
+    </context>
   </template>
   <template name="a-ngFor-trackBy" value="*ngFor=&quot;let $item$ of $list$; trackBy:$item$.id&quot;$END$" description="Angular *ngFor with trackBy" toReformat="true" toShortenFQNames="true" deactivated="true">
     <variable name="item" expression="" defaultValue="&quot;item&quot;" alwaysStopAt="true" />
     <variable name="list" expression="" defaultValue="&quot;list&quot;" alwaysStopAt="true" />
-    <context />
+    <context>
+      <option name="SVELTE_HTML_TEXT" value="false" />
+    </context>
   </template>
   <template name="a-ngForAsync" value="*ngFor=&quot;let $item$ of $stream$ | async as $list$&quot;$END$" description="Angular *ngForAsync" toReformat="true" toShortenFQNames="true" deactivated="true">
     <variable name="item" expression="" defaultValue="&quot;item&quot;" alwaysStopAt="true" />
     <variable name="stream" expression="" defaultValue="&quot;stream&quot;" alwaysStopAt="true" />
     <variable name="list" expression="" defaultValue="&quot;list&quot;" alwaysStopAt="true" />
-    <context />
+    <context>
+      <option name="SVELTE_HTML_TEXT" value="false" />
+    </context>
   </template>
   <template name="a-formControlName" value="formControlName=&quot;$control$&quot;" description="Angular formControlName" toReformat="true" toShortenFQNames="true" deactivated="true">
     <variable name="control" expression="" defaultValue="&quot;control&quot;" alwaysStopAt="true" />
@@ -38,12 +48,16 @@
   </template>
   <template name="a-ngIf" value="*ngIf=&quot;$expression$&quot;" description="Angular *ngIf" toReformat="true" toShortenFQNames="true" deactivated="true">
     <variable name="expression" expression="" defaultValue="&quot;expression&quot;" alwaysStopAt="true" />
-    <context />
+    <context>
+      <option name="SVELTE_HTML_TEXT" value="false" />
+    </context>
   </template>
   <template name="a-ngIfElse" value="*ngIf=&quot;$expression$;else $templateName$&quot;" description="Angular *ngIfElse" toReformat="true" toShortenFQNames="true" deactivated="true">
     <variable name="expression" expression="" defaultValue="&quot;expression&quot;" alwaysStopAt="true" />
     <variable name="templateName" expression="" defaultValue="&quot;templateName&quot;" alwaysStopAt="true" />
-    <context />
+    <context>
+      <option name="SVELTE_HTML_TEXT" value="false" />
+    </context>
   </template>
   <template name="a-ngModel" value="[(ngModel)]=&quot;$binding$&quot;" description="Angular ngModel" toReformat="true" toShortenFQNames="true" deactivated="true">
     <variable name="binding" expression="" defaultValue="&quot;binding&quot;" alwaysStopAt="true" />
@@ -69,7 +83,9 @@
   <template name="a-ngStyle" value="[ngStyle]=&quot;{$style$: $expression$}&quot;" description="Angular ngStyle" toReformat="true" toShortenFQNames="true" deactivated="true">
     <variable name="style" expression="" defaultValue="&quot;style&quot;" alwaysStopAt="true" />
     <variable name="expression" expression="" defaultValue="&quot;expression&quot;" alwaysStopAt="true" />
-    <context />
+    <context>
+      <option name="SVELTE_HTML_TEXT" value="false" />
+    </context>
   </template>
   <template name="a-ngSwitch" value="&lt;div [ngSwitch]=&quot;$conditionExpression$&quot;&gt;&#10; &lt;div *ngSwitchCase=&quot;$expression$&quot;&gt;$output$&lt;/div&gt;&#10; &lt;div *ngSwitchDefault&gt;$output2$&lt;/div&gt;&#10;&lt;/div&gt;" description="Angular ngSwitch" toReformat="true" toShortenFQNames="true" deactivated="true">
     <variable name="conditionExpression" expression="" defaultValue="&quot;conditionExpression&quot;" alwaysStopAt="true" />
@@ -89,7 +105,9 @@
   <template name="a-style" value="[style.$property$]=&quot;$expression$&quot;" description="Angular [style] binding" toReformat="true" toShortenFQNames="true" deactivated="true">
     <variable name="property" expression="" defaultValue="&quot;property&quot;" alwaysStopAt="true" />
     <variable name="expression" expression="" defaultValue="&quot;expression&quot;" alwaysStopAt="true" />
-    <context />
+    <context>
+      <option name="SVELTE_HTML_TEXT" value="false" />
+    </context>
   </template>
   <template name="a-route-path-404" value="{ path: '**', component: $PathNotFoundComponent$ }$END$" description="Angular 404 route path" toReformat="true" toShortenFQNames="true" deactivated="true">
     <variable name="PathNotFoundComponent" expression="" defaultValue="&quot;PathNotFoundComponent&quot;" alwaysStopAt="true" />
