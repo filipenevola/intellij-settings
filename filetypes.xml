@@ -12,6 +12,7 @@
       <mapping ext="bson" type="PLAIN_TEXT" />
       <mapping ext="db" type="PLAIN_TEXT" />
       <removed_mapping ext="ignore" approved="true" type="IgnoreLang file" />
+      <removed_mapping pattern=".dockerignore" approved="true" type="Docker File" />
     </extensionMap>
   </component>
 </application>
