@@ -16,7 +16,6 @@
     <mask>packages</mask>
     <mask>*.html</mask>
     <mask>*.schema.*</mask>
-    <mask>package.json</mask>
     <mask>*.less</mask>
     <mask>.gitignore</mask>
     <mask>*.sh</mask>
@@ -35,5 +34,6 @@
     <mask>*.js</mask>
     <mask>*.tf</mask>
     <mask>*.py</mask>
+    <mask>package.json</mask>
   </component>
 </application>
