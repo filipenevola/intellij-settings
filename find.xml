@@ -35,5 +35,6 @@
     <mask>*.tf</mask>
     <mask>*.py</mask>
     <mask>package.json</mask>
+    <mask>.sql</mask>
   </component>
 </application>
