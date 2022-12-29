@@ -26,7 +26,6 @@
     <mask>*Test*</mask>
     <mask>*js</mask>
     <mask>*Collection*</mask>
-    <mask>package.js</mask>
     <mask>*.json</mask>
     <mask>*.js*</mask>
     <mask>commands.js</mask>
@@ -41,5 +40,6 @@
     <mask>*.jsx</mask>
     <mask>*.d.ts</mask>
     <mask>*test*</mask>
+    <mask>package.js</mask>
   </component>
 </application>
