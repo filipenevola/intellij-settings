@@ -130,7 +130,7 @@
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="gtn" value="$VAR1$$END$: {&#10;  [ENGLISH]: '$VAR0$',&#10;  [PORTUGUESE]: '$VAR2$',&#10;}," description="get text htcaa" toReformat="true" toShortenFQNames="true">
+  <template name="gtn" value="$VAR1$$END$: {&#10;  [ENGLISH]: `$VAR0$`,&#10;  [PORTUGUESE]: `$VAR2$`,&#10;}," description="get text htcaa" toReformat="true" toShortenFQNames="true">
     <variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="VAR0" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="VAR2" expression="" defaultValue="" alwaysStopAt="true" />
