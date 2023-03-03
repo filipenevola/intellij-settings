@@ -39,10 +39,10 @@
     <mask>*.jsx</mask>
     <mask>*.d.ts</mask>
     <mask>*test*</mask>
-    <mask>package.js</mask>
     <mask>*jsx</mask>
     <mask>*html</mask>
     <mask>*md</mask>
     <mask>*js</mask>
+    <mask>package.js</mask>
   </component>
 </application>
