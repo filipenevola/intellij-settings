@@ -68,6 +68,9 @@
   <action id="PinActiveTab">
     <keyboard-shortcut first-keystroke="ctrl p" />
   </action>
+  <action id="Quokka.RunQuokkaOnFileAutomatically">
+    <keyboard-shortcut first-keystroke="alt r" />
+  </action>
   <action id="ReformatCode">
     <keyboard-shortcut first-keystroke="meta alt l" />
     <keyboard-shortcut first-keystroke="alt l" />
