@@ -4,11 +4,11 @@
     <property name="created">2023-03-15T12:29:11</property>
     <property name="ide">WebStorm</property>
     <property name="ideVersion">2023.1.0.0</property>
-    <property name="modified">2023-03-30T16:56:55</property>
+    <property name="modified">2023-04-06T15:58:36</property>
     <property name="originalScheme">Darcula</property>
   </metaInfo>
   <option name="CONSOLE_FONT_NAME" value="JetBrains Mono" />
-  <option name="CONSOLE_FONT_SIZE" value="10" />
+  <option name="CONSOLE_FONT_SIZE" value="14" />
   <option name="CONSOLE_LINE_SPACING" value="1.2" />
   <attributes>
     <option name="HTML_CODE">
