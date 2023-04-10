@@ -6,6 +6,9 @@
     </value>
   </option>
   <option name="RIGHT_MARGIN" value="80" />
+  <JSCodeStyleSettings version="0">
+    <option name="JSX_ATTRIBUTE_VALUE" value="Quotes" />
+  </JSCodeStyleSettings>
   <codeStyleSettings language="CSS">
     <indentOptions>
       <option name="INDENT_SIZE" value="2" />
