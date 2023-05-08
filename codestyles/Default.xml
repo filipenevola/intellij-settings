@@ -7,7 +7,11 @@
   </option>
   <option name="RIGHT_MARGIN" value="80" />
   <JSCodeStyleSettings version="0">
+    <option name="FORCE_SEMICOLON_STYLE" value="true" />
+    <option name="USE_DOUBLE_QUOTES" value="false" />
+    <option name="ENFORCE_TRAILING_COMMA" value="WhenMultiline" />
     <option name="JSX_ATTRIBUTE_VALUE" value="Quotes" />
+    <option name="SPACES_WITHIN_IMPORTS" value="true" />
   </JSCodeStyleSettings>
   <codeStyleSettings language="CSS">
     <indentOptions>
