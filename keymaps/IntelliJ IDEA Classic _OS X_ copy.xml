@@ -57,6 +57,9 @@
   <action id="Github.Open.In.Browser">
     <keyboard-shortcut first-keystroke="alt g" />
   </action>
+  <action id="Javascript.Linters.EsLint.Fix">
+    <keyboard-shortcut first-keystroke="alt l" />
+  </action>
   <action id="MaximizeToolWindow">
     <keyboard-shortcut first-keystroke="shift meta quote" />
     <keyboard-shortcut first-keystroke="shift ctrl up" />
@@ -70,10 +73,6 @@
   </action>
   <action id="Quokka.RunQuokkaOnFileAutomatically">
     <keyboard-shortcut first-keystroke="alt r" />
-  </action>
-  <action id="ReformatCode">
-    <keyboard-shortcut first-keystroke="meta alt l" />
-    <keyboard-shortcut first-keystroke="alt l" />
   </action>
   <action id="ReformatWithPrettierAction">
     <keyboard-shortcut first-keystroke="shift meta alt p" />
