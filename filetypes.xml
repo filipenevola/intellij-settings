@@ -5,6 +5,7 @@
       <mapping pattern=".meteorignore" type="PLAIN_TEXT" />
       <mapping pattern="keystore" type="PLAIN_TEXT" />
       <mapping pattern="cordova-plugins" type="PLAIN_TEXT" />
+      <mapping ext="cert" type="PLAIN_TEXT" />
       <mapping ext="sss" type="PLAIN_TEXT" />
       <mapping ext="keystore" type="PLAIN_TEXT" />
       <mapping ext="tf" type="PLAIN_TEXT" />
