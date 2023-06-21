@@ -26,7 +26,9 @@
     <keyboard-shortcut first-keystroke="alt c" />
   </action>
   <action id="EditorCodeBlockEnd" />
+  <action id="EditorCodeBlockEndWithSelection" />
   <action id="EditorCodeBlockStart" />
+  <action id="EditorCodeBlockStartWithSelection" />
   <action id="EditorDecreaseFontSize">
     <keyboard-shortcut first-keystroke="alt minus" />
   </action>
