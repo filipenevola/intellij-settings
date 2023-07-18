@@ -3,6 +3,7 @@
     <ignoreFiles list="*.pyc;*.pyo;*.rbc;*.yarb;*~;.DS_Store;.git;.hg;.npm;.svn;CVS;__pycache__;_svn;vssver.scc;vssver2.scc" />
     <extensionMap>
       <mapping pattern=".meteorignore" type="PLAIN_TEXT" />
+      <mapping pattern=".zcloudignore" type="PLAIN_TEXT" />
       <mapping pattern="keystore" type="PLAIN_TEXT" />
       <mapping pattern="cordova-plugins" type="PLAIN_TEXT" />
       <mapping ext="cert" type="PLAIN_TEXT" />
