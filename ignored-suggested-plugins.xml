@@ -3,6 +3,7 @@
     <option name="pluginIds">
       <list>
         <option value="org.intellij.plugins.postcss" />
+        <option value="com.intellij.kubernetes" />
       </list>
     </option>
   </component>
