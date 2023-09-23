@@ -31,7 +31,6 @@
     <mask>*.py</mask>
     <mask>package.json</mask>
     <mask>.sql</mask>
-    <mask>*.d.ts</mask>
     <mask>*test*</mask>
     <mask>*jsx</mask>
     <mask>*md</mask>
@@ -40,5 +39,6 @@
     <mask>package.js</mask>
     <mask>*.js</mask>
     <mask>*.jsx</mask>
+    <mask>*.d.ts</mask>
   </component>
 </application>
